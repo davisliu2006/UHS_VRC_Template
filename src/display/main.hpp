@@ -11,7 +11,7 @@ namespace display {
         selection::init();
     }
 
-    // display to show on initialize
+    // display to show on initialize()
     inline void on_init() {
         selection::enable();
     }
@@ -20,7 +20,7 @@ namespace display {
         selection::enable();
     }
     // display to show on opcontrol()
-    inline void on_opc() {
+    inline void on_opcontrol() {
         selection::disable();
     }
     // display to show on autonomous()

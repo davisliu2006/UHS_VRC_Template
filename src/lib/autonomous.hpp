@@ -107,7 +107,7 @@ namespace auton {
         turn_to(angl_360(sens::rot+angle));
     }
 
-    // initialize
+    // INITIALIZE
     inline bool did_init = false;
     inline bool need_sens_reset = false;
     /*

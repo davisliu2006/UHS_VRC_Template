@@ -80,7 +80,7 @@ void autonomous() {
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-    display::on_opc();
+    display::on_opcontrol();
     if (!auton::did_init) {auton::init();}
     auton::need_sens_reset = true;
     opcontrol_start();

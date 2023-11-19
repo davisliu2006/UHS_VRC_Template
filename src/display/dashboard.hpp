@@ -47,6 +47,9 @@ namespace dashboard {
     }
     
     // update
+    /*
+    Call this every frame to update and display the dashboard.
+    */
     inline void update() {
         if (displ_time >= delay) {
             displ_temp();
