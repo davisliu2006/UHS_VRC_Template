@@ -1,5 +1,5 @@
 # UHS_VRC_Template
-UHS VRC Template
+UHS VRC Template and Library
 
 Credits:
 - Davis Liu ([davisliu2006](https://github.com/davisliu2006))
